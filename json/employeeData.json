@@ -1,0 +1,39 @@
+{
+  "employeeList": [
+    {
+      "id": "9cda",
+      "name": "Amandeep",
+      "profileImage": "../assets/boy2.jpeg",
+      "gender": "male",
+      "department": [
+        "HR",
+        "sales",
+        "finance"
+      ],
+      "salary": "₹10,000",
+      "startDate": {
+        "day": "04",
+        "month": "08",
+        "year": "2024"
+      },
+      "notes": "hyy"
+    },
+    {
+      "name": "aryan",
+      "profileImage": "../assets/boy1.jpeg",
+      "gender": "female",
+      "department": [
+        "sales",
+        "finance"
+      ],
+      "salary": "₹10,000",
+      "startDate": {
+        "day": "02",
+        "month": "08",
+        "year": "2021"
+      },
+      "notes": "yoo",
+      "id": "7773"
+    }
+  ]
+}

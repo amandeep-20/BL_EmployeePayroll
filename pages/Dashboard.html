@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/script.js" defer></script>
+    <title>Employee-Dashboard</title>
+</head>
+
+<body>
+    <main class="emp-dash-main">
+        <header class="emp-dash-header">
+            <div class="emp-dash-logo-div">
+                <img src="../assets/logo.jpeg" alt="logo" class="emp-dash-logo">
+                <div class="emp-dash-title">
+                    <p>EMPLOYEE</p>
+                    <p>PAYROLL</p>
+                </div>
+            </div>
+        </header>
+        <section class="emp-dash-main-content">
+            <div class="emp-dash-nav">
+                <div>
+                    <h2>Employee Details</h2>
+                </div>
+                <div class="emp-dash-nav-functions">
+                    <div class="emp-main-search-box">
+                        <input type="text" id="emp-main-search_box" />
+                        <div class="emp-dash-nav-search-icon">
+                            <div onclick="searchByName()" class="emp-dash-nav-search"><img src="../assets/search_icon.png" /></div>
+                        </div>
+                    </div>
+                    <div class="emp-dash-nav-add-user">
+                        <img src="../assets/add.png" />
+                        <a class="emp-dash-nav-link-add" href="empForm.html">
+                            <p>Add User</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="emp-dash-table">
+                <table class="emp-dash-table-content">
+                    <thead class="emp-dash-table-header">
+                        <tr>
+                            <td>NAME</td>
+                            <td>EMAIL</td>
+                            <td>POSITION</td>
+                            <td>SALARY</td>
+                            <td>DEPARTMENT</td>
+                            <td>ACTION</td>
+                        </tr>
+                    </thead>
+                    <tbody class="emp-dash-table-body">
+                        <tr>
+                            <td>
+                                <div class="emp-dash-table-body-img">
+                                    <img src="../assets/boy1.jpeg" />
+                                    <span>John Doe</span>
+                                </div>
+                            </td>
+                            <td>Male</td>
+                            <td>Sales HR Finance</td>
+                            <td>Rs.10,000</td>
+                            <td>29 October 2025</td>
+                            <td>
+                                <img src="../assets/delete.png">
+                                <img src="../assets/pen.png" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

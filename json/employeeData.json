@@ -1,39 +1,38 @@
 {
   "employeeList": [
     {
-      "id": "9cda",
+      "id": "b177",
       "name": "Amandeep",
       "profileImage": "../assets/boy2.jpeg",
       "gender": "male",
       "department": [
-        "HR",
-        "sales",
-        "finance"
+        "finance",
+        "enginer"
       ],
-      "salary": "₹10,000",
+      "salary": "₹20,000",
       "startDate": {
         "day": "04",
         "month": "08",
         "year": "2024"
       },
-      "notes": "hyy"
+      "notes": ""
     },
     {
+      "id": "3228",
       "name": "aryan",
-      "profileImage": "../assets/boy1.jpeg",
-      "gender": "female",
+      "profileImage": "../assets/boy2.jpeg",
+      "gender": "male",
       "department": [
-        "sales",
-        "finance"
+        "HR",
+        "enginer"
       ],
       "salary": "₹10,000",
       "startDate": {
-        "day": "02",
-        "month": "08",
-        "year": "2021"
+        "day": "05",
+        "month": "07",
+        "year": "2023"
       },
-      "notes": "yoo",
-      "id": "7773"
+      "notes": ""
     }
   ]
 }

@@ -12,6 +12,19 @@ html {
     overflow-x: hidden;
     background-color: #F7F7F7;
 }
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#emp-main-search_box {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 
 .emp-dash-main {
     display: flex;

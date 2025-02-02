@@ -90,19 +90,19 @@ function fetchData() {
 }
 
 function deleteEmployee(employeeId) {
-    console.log("employeeId", employeeId)
-    $.ajax({
-        type: "DELETE",
-        url: `${apiUrl}/${employeeId}`,
-        success: () => {
-            alert("Employee deleted succesfully!")
-            window.location.reload();
-
-        },
-        error: (err) => {
-            console.log(err.message)
-        }
-    })
+    if (confirm("Are you sure you want to delete this employee?")) {
+        $.ajax({
+            type: "DELETE",
+            url: `${apiUrl}/${employeeId}`,
+            success: () => {
+                alert("Employee deleted successfully!");
+                window.location.reload();
+            },
+            error: (err) => {
+                console.log(err.message);
+            }
+        });
+    }
 }
 
 function editEmployee(index) {
